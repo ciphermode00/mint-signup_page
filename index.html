@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <title>Mint Sign-Up Page</title>
 </head>
-<body>
+<body style="background-color:#ececec;">
     <header>
         <div class="container">
             <nav>
@@ -16,7 +17,7 @@
                 </p>
                 
                 <div>
-                    <button class="btn btn-default btn-primary">Sign In</button>
+                    <button class="btn btn-default btn-primary"><i class="fas fa-lock"></i> Sign In</button>
                 </div>
             </nav>
         </div>
@@ -24,8 +25,31 @@
 
     <main>
         <div class="container">
+            <img class="logo" src="imgs/img1.png" alt="intuit-logo">
 
+            <div class="signUp">
+                <form>
+                    <h3>Create an Intuit account</h3>
+                    <p>One account for everything Intuit, including Mint.</p>
+
+                    Email Address <br><input type="text"><br><br>
+                    Phone (recommended) <br><input type="text">
+                    <p>Standard call, messaging or data rates may apply.</p><br>
+                    Password <br><input type="text">
+                    <br><br><button class="btn1 btn-primary"><i class="fas fa-lock"></i> Create Account</button><br><br>
+
+                    <p>By clicking Create account, you agree to our
+                        Terms and have read and acknowledge our Privacy Statement.</p>
+                </form>
+            </div>
         </div>
     </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+            <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        </div>
+    </footer>
 </body>
 </html>
